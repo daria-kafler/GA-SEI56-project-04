@@ -1,0 +1,16 @@
+[
+{
+  "model": "diets.diet",
+  "pk": 1,
+  "fields": {
+    "name": "Lactose intolerant"
+  }
+},
+{
+  "model": "diets.diet",
+  "pk": 2,
+  "fields": {
+    "name": "Diabetes"
+  }
+}
+]

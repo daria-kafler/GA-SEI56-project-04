@@ -1,0 +1,24 @@
+[
+{
+  "model": "foods.food",
+  "pk": 1,
+  "fields": {
+    "name": "Tinned tomatoes",
+    "calories": 300,
+    "protein": 3,
+    "dietary_note": []
+  }
+},
+{
+  "model": "foods.food",
+  "pk": 2,
+  "fields": {
+    "name": "Milk (cow) 1L",
+    "calories": 450,
+    "protein": 100,
+    "dietary_note": [
+      1
+    ]
+  }
+}
+]

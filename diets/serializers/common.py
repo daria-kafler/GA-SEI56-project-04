@@ -1,6 +1,5 @@
-from diets.models import Diet
 from rest_framework import serializers
-from .models import Diet
+from ..models import Diet
 
 
 class DietSerializer(serializers.ModelSerializer):

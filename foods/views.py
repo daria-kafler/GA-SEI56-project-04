@@ -2,11 +2,13 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from .models import Food
-from .serializer import FoodSerializer
+from .serializers.common import FoodSerializer
 
 class FoodListView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get(self, _request):
         foods = Food.objects.all()
@@ -22,6 +24,7 @@ class FoodListView(APIView):
             return Response(food_to_add.data, status=status.HTTP_201_CREATED)
 
 class FoodDetailView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get_food(self, pk):
         try:
@@ -42,7 +45,7 @@ class FoodDetailView(APIView):
 
     def put(self, request, pk):
         food_to_edit = self.get_food(pk=pk)
-        updated_food =FoodSerializer(food_to_edit, data=request.data)
+        updated_food = FoodSerializer(food_to_edit, data=request.data)
         if updated_food.is_valid():
             updated_food.save()
             return Response(updated_food.data, status=status.HTTP_202_ACCEPTED)
