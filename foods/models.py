@@ -1,7 +1,7 @@
 from django.db import models
 
 class Food(models.Model):
-    name = models.CharField(max_length=50, unique=True)
+    name = models.CharField(max_length=50)
     calories = models.PositiveSmallIntegerField(blank=True)
     protein = models.PositiveSmallIntegerField(blank=True)
     diets = models.ManyToManyField("diets.Diet", related_name= "foods")

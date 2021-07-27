@@ -1,7 +1,7 @@
 
 from .common import DietSerializer
-from foods.serializers.common import FoodSerializer
+from foods.serializers.populated import PopulatedFoodSerializer
 
 class PopulatedDietSerializer(DietSerializer):
-    foods = FoodSerializer(many=True)
+    foods = PopulatedFoodSerializer(many=True)
 

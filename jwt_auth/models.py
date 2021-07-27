@@ -11,7 +11,3 @@ class User(AbstractUser):
     name = models.CharField(max_length=50)
     dietary_requirements = models.ManyToManyField('diets.Diet', related_name='User', blank=True)
     profile_image = models.CharField(max_length=300, blank=True)
-
-
-    def __str__(self):
-        return f"{self.name}, {self.email}, {self.password}, {self.dietary_requirements}"
