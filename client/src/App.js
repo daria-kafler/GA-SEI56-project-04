@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
+import Home from './components/Home'
+import Navigation from './components/Navigation'
 
 const App = () => {
   useEffect(() => {
@@ -10,7 +12,12 @@ const App = () => {
     getData()
   })
 
-  return <h1>Hello World</h1>
+  return (
+    <>
+      < Navigation/>
+      < Home/>
+    </>
+  ) 
 }
 
 export default App
