@@ -1,13 +1,11 @@
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-const ProductCard = ({ products }) => {
-
-
+const ProductCard = ({ products, filteredProducts }) => {
+  console.log('FILTERED PRODUCTS->', filteredProducts)
 
   return (
     <>
-
       {products.map( ( product ) => {
         return (
           <Card key={products._id} style={{ width: '18rem' }}>
