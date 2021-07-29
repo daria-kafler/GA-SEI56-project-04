@@ -1,16 +1,14 @@
 import React, { useEffect, useState  } from 'react'
 import axios from 'axios'
+import ProductCard from './ProductCards'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+// import Card from 'react-bootstrap/Card'
+// import Button from 'react-bootstrap/Button'
 
 const GetAll = () => {
   const [products, setProducts] = useState([])
-
-
-
-
-
 
   useEffect(() => {
     const getData = async () => {
@@ -31,7 +29,10 @@ const GetAll = () => {
     <Container>
       <Row>
         <Col>
-          {products.map(product => <p key={product._id}>{product.name}</p>)}
+          < ProductCard
+            products = {products}
+          />
+
         </Col>
       </Row>
     </Container>
