@@ -1,21 +1,28 @@
-import React, { useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import GetAll from './components/GetAll'
 import Home from './components/Home'
 import Navigation from './components/Navigation'
 
 const App = () => {
-  useEffect(() => {
-    const getData = async () => {
-      const { data } = await axios.get('/api/') 
-      console.log(data)
-    }
-    getData()
-  })
+
 
   return (
     <>
-      < Navigation/>
-      < Home/>
+      <BrowserRouter>
+        < Navigation/>
+        <Switch>
+          <Route path="/foods/">
+            < GetAll/>
+          </Route>
+          <Route path="/">
+            < Home/>
+          </Route>
+
+        </Switch>
+      </BrowserRouter>
+      
+      
     </>
   ) 
 }

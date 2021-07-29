@@ -1,16 +1,24 @@
 [
-{
-  "model": "diets.diet",
-  "pk": 1,
-  "fields": {
-    "name": "Lactose intolerant"
-  }
-},
-{
-  "model": "diets.diet",
-  "pk": 2,
-  "fields": {
-    "name": "Diabetes"
-  }
-}
-]
+    {
+      "model": "diets.diet",
+      "pk": 1,
+      "fields": {
+        "name": "First Aid"
+      }
+    },
+    {
+      "model": "diets.diet",
+      "pk": 2,
+      "fields": {
+        "name": "Grow your own"
+      }
+    },
+    {
+      "model": "diets.diet",
+      "pk": 3,
+      "fields": {
+        "name": "Wearables"
+      }
+    }
+    ]
+    
