@@ -13,9 +13,7 @@ const GetAll = () => {
   const [filteredProducts, setFilteredProducts] = useState(products)
 
   const typesOfProducts = 'all'
-
   let diets = ['all']
-
   const searchProducts = ''
 
 
@@ -63,7 +61,7 @@ const GetAll = () => {
   }
 
   // getProductTypes()
-  console.log('trying to access diets array->', products.description)
+  
 
 
   return (

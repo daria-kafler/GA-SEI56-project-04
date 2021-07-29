@@ -25,7 +25,7 @@
     },
     {
       "model": "foods.food",
-      "pk": 2,
+      "pk": 3,
       "fields": {
         "name": "Pink Panther Rain Poncho",
         "image": "https://cdn.shopify.com/s/files/1/0280/7513/0978/products/rainkisshigres_2of72_360x.jpg?v=1600259444",
