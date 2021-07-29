@@ -48,11 +48,29 @@ a.navbar-brand {
     
     // Get All Products Page //
 
+    .carousel-caption {
+        background-color:brown;
+    }
+
+    .handle-selection-buttons.col {
+        display: flex;
+        justify-content: center;
+    }
+
     .products-display.row {
+        display: flex;
+        justify-content: center;
         .card {
             margin-bottom: 1rem;
+            .card-body {
+                    .btn.btn-primary {
+                        background-color: #6610f2;
+                        border: none;
+                    }
+            }
         }
     }
+
 
 }
 

@@ -6,11 +6,11 @@ import Button from 'react-bootstrap/Button'
 const HandleSelection = ({ handleSelected }) => {
 
   return (
-    <Col>
+    <Col className="handle-selection-buttons">
       <ButtonGroup aria-label="Basic example">
-        <Button className="first-aid" value="1" onClick={handleSelected}>First Aid</Button>
-        <Button className="grow-your-own" value="2" onClick={handleSelected}>Grow your own</Button>
-        <Button className="Wearable" value="3" onClick={handleSelected}>Wearable</Button>
+        <Button className="first-aid" value="First Aid" onClick={handleSelected}>First Aid</Button>
+        <Button className="grow-your-own" value="Grow your own" onClick={handleSelected}>Grow your own</Button>
+        <Button className="Wearable" value="Wearables" onClick={handleSelected}>Wearable</Button>
       </ButtonGroup>
     </Col>
   )

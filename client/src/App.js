@@ -12,7 +12,7 @@ const App = () => {
       <BrowserRouter>
         < Navigation/>
         <Switch>
-          <Route path="/foods/">
+          <Route path="/products/">
             < GetAll/>
           </Route>
           <Route path="/">

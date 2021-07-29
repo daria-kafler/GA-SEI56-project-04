@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -16,7 +17,9 @@ const Home = () => {
             <h1>Whatever life <span>throws</span> at you </h1>
             <h1>why not be <span>prepared</span>?</h1>
             <br/>
-            <Button><p>Browse</p></Button>
+            <Link to='/products/'>
+              <Button><p>Browse</p></Button>
+            </Link>
           </Col>
         </Row>
         <Row>

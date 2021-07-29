@@ -6,6 +6,7 @@
         "name": "First Aid kit",
         "image": "https://activeera.com/wp-content/uploads/2019/12/Hero-Image-min-2.jpg",
         "description": "Keep those scrapes and bruises at bay.",
+        "price": 20,
         "diets": [
           1
         ]
@@ -18,6 +19,7 @@
         "name": "Tomato seeds",
         "image": "https://www.rhs.org.uk/getmedia/88c682f4-a291-47ee-a5cb-282bd75680ec/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696.jpg?width=940&height=627&ext=.jpg",
         "description": "Easy and fun for beginner growers.",
+        "price": 3,
         "diets": [
           2
         ]
@@ -30,6 +32,7 @@
         "name": "Pink Panther Rain Poncho",
         "image": "https://cdn.shopify.com/s/files/1/0280/7513/0978/products/rainkisshigres_2of72_360x.jpg?v=1600259444",
         "description": "No one said protective gear can't be stylish",
+        "price": 147,
         "diets": [
           3
         ]
