@@ -74,11 +74,11 @@ const GetAll = () => {
             <h1>SOME HERO TEXT HERE ABOUT OUR AMAZING PRODUCTS</h1>
           </Col>
         </Row>
-        <hr/>
-        <Row>
+        
+        <Row className="carousel-row">
           < MovingPictures />
         </Row>
-        <hr />
+        
         <Row>
           < HandleSelection 
             typesOfProducts = {typesOfProducts}

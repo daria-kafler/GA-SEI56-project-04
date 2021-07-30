@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import imageOne from '../styles/assets/WFH_svg/wfh_1.svg'
-import imageTwo from '../styles/assets/WFH_svg/wfh_2.svg'
-import imageThree from '../styles/assets/WFH_svg/wfh_3.svg'
+import imageOne from '../styles/assets/carousel/manwithbowlofsmalltomatoes.jpeg'
+import imageTwo from '../styles/assets/carousel/steady-hand-co-760K7ArRBAE-unsplash.jpg'
+import imageThree from '../styles/assets/carousel/raychan-Kr1-Ew4bhSE-unsplash.jpg'
 
 
 const MovingPictures = () => {

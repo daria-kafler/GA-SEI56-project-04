@@ -37,5 +37,70 @@
           3
         ]
       }
+    },
+    {
+    "model": "foods.food",
+    "pk": 4,
+    "fields": {
+      "name": "Marmite, 600gr",
+      "image": "https://m.media-amazon.com/images/I/71drnu-ifnL._AC_SL1500_.jpg",
+      "description": "Sorted for life!",
+      "price": 7,
+      "diets": [
+        2
+      ]
     }
+  },
+  {
+    "model": "foods.food",
+    "pk": 5,
+    "fields": {
+      "name": "Wine pack",
+      "image": "https://m.media-amazon.com/images/I/71drnu-ifnL._AC_SL1500_.jpg",
+      "description": "In case of a real emergency",
+      "price": 60,
+      "diets": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 6,
+    "fields": {
+      "name": "Sunwarrior Vegan Protein Powder, Berry flavour",
+      "image": "https://m.media-amazon.com/images/I/71drnu-ifnL._AC_SL1500_.jpg",
+      "description": "Protein supplement to keep you healthy in a tough situation",
+      "price": 29,
+      "diets": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 7,
+    "fields": {
+      "name": "Vitamin D3 tablets",
+      "image": "https://health-hub.assets.hollandandbarrett.com/static/b8c0b5481ac1d32c00ae133038daacf2/0906c/vitd-1-001143.jpg",
+      "description": "Essential for your pasty little body",
+      "price": 17,
+      "diets": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 8,
+    "fields": {
+      "name": "Premium Beans",
+      "image": "https://cdn.shopify.com/s/files/1/0111/1729/7722/products/BD0156_NavarricoTolosanaBlackBeans660g_1000x1000.jpg?v=1625143551",
+      "description": "Keep forever, also premium",
+      "price": 4,
+      "diets": [
+        2
+      ]
+    }
+  },
     ]
