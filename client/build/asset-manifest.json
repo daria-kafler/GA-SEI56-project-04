@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.240c5290.chunk.css",
+    "main.js": "/static/js/main.2c937680.chunk.js",
+    "main.js.map": "/static/js/main.2c937680.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
+    "static/js/2.aff9430f.chunk.js": "/static/js/2.aff9430f.chunk.js",
+    "static/js/2.aff9430f.chunk.js.map": "/static/js/2.aff9430f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.240c5290.chunk.css.map": "/static/css/main.240c5290.chunk.css.map",
+    "static/js/2.aff9430f.chunk.js.LICENSE.txt": "/static/js/2.aff9430f.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/WaimakaririOpacity.c1d14806.png",
+    "static/media/manwithbowlofsmalltomatoes.fc37b593.jpeg": "/static/media/manwithbowlofsmalltomatoes.fc37b593.jpeg",
+    "static/media/raychan-Kr1-Ew4bhSE-unsplash.9722c7e0.jpg": "/static/media/raychan-Kr1-Ew4bhSE-unsplash.9722c7e0.jpg",
+    "static/media/steady-hand-co-760K7ArRBAE-unsplash.7de8281e.jpg": "/static/media/steady-hand-co-760K7ArRBAE-unsplash.7de8281e.jpg",
+    "static/media/wfh_8.ab2a6f14.png": "/static/media/wfh_8.ab2a6f14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7545a8a1.js",
+    "static/js/2.aff9430f.chunk.js",
+    "static/css/main.240c5290.chunk.css",
+    "static/js/main.2c937680.chunk.js"
+  ]
+}
