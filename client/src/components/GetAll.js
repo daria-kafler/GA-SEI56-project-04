@@ -71,7 +71,8 @@ const GetAll = () => {
       <Container fluid className="page-wrapper"> 
         <Row className="align-items-center index-hero-row">
           <Col>
-            <h1>SOME HERO TEXT HERE ABOUT OUR AMAZING PRODUCTS</h1>
+            <h1>Future-proof your home, settle down and settle in <span> 🧘 </span> </h1>
+            
           </Col>
         </Row>
         
@@ -80,16 +81,20 @@ const GetAll = () => {
         </Row>
         
         <Row>
+          <p className="hero-p">What ever you need to be prepared, whether another pandemic or natural disaster, we can help keep you safe and happy.</p>
+        </Row>
+
+        <Row>
           < HandleSelection 
             typesOfProducts = {typesOfProducts}
             handleSelected = {handleSelected}
           />
         </Row>
-        <hr />
+
         { products ? 
           <>
             <Row className="products-display">
-              <Col>
+              <Col className="products">
                 < ProductCard
                   products = {products}
                   filteredProducts = {filteredProducts}

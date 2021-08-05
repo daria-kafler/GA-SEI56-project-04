@@ -13,7 +13,7 @@ const ProductCard = ({ products, filteredProducts }) => {
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
               <Card.Text>{product.description}</Card.Text>
-              <Card.Text>£<span>{product.price}</span> <Button>Add</Button></Card.Text>
+              <Card.Text>£{product.price} <Button>Add</Button></Card.Text>
             </Card.Body>
           </Card>
         )

@@ -23,8 +23,8 @@ const MovingPictures = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Grow your own</h3>
+          <p>We sell a veriaty of vegetable and fruit seeds- for the long haul</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,8 +35,8 @@ const MovingPictures = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Sturdy Boots</h3>
+          <p>Shop our range or sturdy feet protectors</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -47,8 +47,8 @@ const MovingPictures = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h3>Fuel</h3>
+          <p>Sometimes all we have is hot water, be sure to spice it up</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

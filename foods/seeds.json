@@ -1,10 +1,37 @@
 [
+  {
+    "model": "foods.food",
+    "pk": 2,
+    "fields": {
+      "name": "Tomato seeds",
+      "image": "https://cdn.shopify.com/s/files/1/0679/7951/products/tomato-crimson-crush-packet_1024x1024.jpg?v=1575402288",
+      "description": "Easy and fun for beginner growers.",
+      "price": 3,
+      "diets": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 19,
+    "fields": {
+      "name": "Blundstone boots, unisex",
+      "image": "https://www.tower-london.com/media/catalog/product/b/l/blundstone_26085.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=532&width=532&canvas=532:532",
+      "description": "Eeveryone needs a good sturdy all-rounder",
+      "price": 135,
+      "diets": [
+        1
+      ]
+    }
+  },
+
     {
       "model": "foods.food",
       "pk": 1,
       "fields": {
         "name": "First Aid kit",
-        "image": "https://activeera.com/wp-content/uploads/2019/12/Hero-Image-min-2.jpg",
+        "image": "https://static.bergzeit.de/out/pictures-imago/generated/product/25/1b/1200x1200/5044750-001_pic1_deuter-men-first-aid-kit-papaya.jpg",
         "description": "Keep those scrapes and bruises at bay.",
         "price": 20,
         "diets": [
@@ -12,19 +39,7 @@
         ]
       }
     },
-    {
-      "model": "foods.food",
-      "pk": 2,
-      "fields": {
-        "name": "Tomato seeds",
-        "image": "https://www.rhs.org.uk/getmedia/88c682f4-a291-47ee-a5cb-282bd75680ec/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696.jpg?width=940&height=627&ext=.jpg",
-        "description": "Easy and fun for beginner growers.",
-        "price": 3,
-        "diets": [
-          2
-        ]
-      }
-    },
+
     {
       "model": "foods.food",
       "pk": 3,
@@ -56,7 +71,7 @@
     "pk": 5,
     "fields": {
       "name": "Wine pack",
-      "image": "https://m.media-amazon.com/images/I/71drnu-ifnL._AC_SL1500_.jpg",
+      "image": "https://m.media-amazon.com/images/I/610Ncv0+WBL._AC_SL1000_.jpg",
       "description": "In case of a real emergency",
       "price": 60,
       "diets": [
@@ -69,7 +84,7 @@
     "pk": 6,
     "fields": {
       "name": "Sunwarrior Vegan Protein Powder, Berry flavour",
-      "image": "https://m.media-amazon.com/images/I/71drnu-ifnL._AC_SL1500_.jpg",
+      "image": "https://m.media-amazon.com/images/I/917ypwm102L._AC_SL1500_.jpg",
       "description": "Protein supplement to keep you healthy in a tough situation",
       "price": 29,
       "diets": [
@@ -102,5 +117,5 @@
         2
       ]
     }
-  },
+  }
     ]
