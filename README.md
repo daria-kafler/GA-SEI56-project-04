@@ -1,4 +1,4 @@
-## NOTE: Project under developemnt. Many changes and improvements to come. Readme file still under construction.
+## NOTE: Readme in progress. Project undergoing improvements and changes. 
 
 # Project 4 with General Assembly: PERN web app.
  ## Overview
