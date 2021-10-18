@@ -24,3 +24,11 @@ You can check it out here >>> [https://sei65-project-4.herokuapp.com/](https://s
 ...
 
 IN PROGRESS
+
+to be added
+## Approach
+## Challenges
+## Wins
+## Bugs
+## Future features
+## Key takeaways
